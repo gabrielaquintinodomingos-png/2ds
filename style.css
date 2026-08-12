@@ -1,11 +1,67 @@
-	height: 100vh;
-	background-repeat: no-repeat;
-	background-size:cover;
-	padding: 50px;
-}
-main .slide h3{
-	color: white;
-	font-size: 40px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    height: 70px;
+    width: 100%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+main .slide {
+    background: url("banner.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    x''
+
+}
+
+main .slide h3 {
+    color: white;
+    font-size: 40px;
+
+}
+
+main .slide h2 {
+    color: red;
+    font-size: 55px;
+
+}
+
+main .slide p {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+main .slide a{
+    color: white;
+    background: red;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+main .slide .descricao-slide{
+    margin-left: 50px;
+}
+main .catalogo .destaque-vertodos{
+    display: flex;
+    justify-content: space-between;
+}
 
