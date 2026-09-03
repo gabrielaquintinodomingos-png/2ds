@@ -97,7 +97,13 @@ footer{
 	background: #000;
 	heigth: 350px;
 	width: 100%;
+	display: flex;
+}
+footer div{
+	width: 33%
+	heigth: 350px;
 	border: 1px solid #fff;
+	
 }
 	
 
