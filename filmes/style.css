@@ -93,8 +93,11 @@ main .catalogo ul{
 	flex-wrap: wrap;
 	margin: 0 auto;
 }
-
-
+footer{
+	background: #000;
+	heigth: 350px;
+	width: 100%;
+}
 
 
 
